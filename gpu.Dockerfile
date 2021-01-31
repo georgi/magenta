@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.4.0-gpu-jupyter
+FROM tensorflow/tensorflow:2.4.0-gpu
 
 RUN apt-get update
 RUN apt-get -y install libsndfile-dev libfluidsynth1 build-essential libasound2-dev libjack-dev fluid-soundfont-gm ffmpeg
